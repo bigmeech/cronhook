@@ -1,6 +1,6 @@
 ### Cronhook
 
-Cronjobs meet webhooks. Register endpoints to be called in the future
+Cronjobs meet webhooks. Setup and trigger webhooks events from cronjobs
 
 
 ## Setup
