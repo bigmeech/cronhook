@@ -1,0 +1,1 @@
+exports.job = require('../components/job');

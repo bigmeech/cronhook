@@ -1,0 +1,34 @@
+{
+  "name": "cronhook",
+  "version": "0.1.0",
+  "description": "Cron Jobs meets Webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "./index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigmeech/cronhook.git"
+  },
+  "keywords": [
+    "Larry",
+    "Eliemenye"
+  ],
+  "author": "Larry Eliemenye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigmeech/cronhook/issues"
+  },
+  "homepage": "https://github.com/bigmeech/cronhook#readme",
+  "devDependencies": {
+    "debug": "^4.1.1"
+  },
+  "dependencies": {
+    "pino": "^5.13.2",
+    "pino-pretty": "^3.2.0",
+    "yamljs": "^0.3.0",
+    "yargs": "^13.3.0",
+    "fastify": "^2.6.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "cb_url",
+    "cb_failure",
+    "cb_method",
+    "cb_params",
+    "schedule_time",
+    "recurring",
+    "recurring_count"
+  ],
+  "properties": {
+    "cb_url": { "type": "string" },
+    "cb_failure": { "type": "string" },
+    "cb_method": { "type": "string" },
+    "cb_params": {
+      "type": "object"
+    },
+    "schedule_time": {
+      "type": "integer",
+      "default": 0
+    },
+    "recurring": {
+      "type": "boolean",
+      "default": false
+    },
+    "recurring_count": {
+      "type": "integer"
+    }
+  }
+}
